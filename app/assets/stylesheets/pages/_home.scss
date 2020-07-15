@@ -1,5 +1,9 @@
 // Specific CSS for your home-page
 
+.wow {
+  visibility: hidden;
+}
+
 .graph-section {
   height: auto;
   margin: 56px;
@@ -7,9 +11,47 @@
 
 
 .chart {
-  margin: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   padding: 24px;
   border: 1px solid #e43f5a;
   border-radius: 8px;
   box-shadow: 2px 2px 8px grey;
+}
+
+.mytable {
+  margin-top: 32px;
+  border: 1px solid #e43f5a;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px grey;
+}
+
+html, body {
+
+overflow-x: none;
+}
+
+body {
+  background: #f5f7fa !important;
+}
+
+
+.footer {
+  height: 8vh;
+  background: #e43f5a;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header {
+  margin-bottom: 40px;
+}
+
+.mytext {
+  margin: 40px 0;
+
 }
